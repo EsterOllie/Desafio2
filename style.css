@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2? family= Dela+Gothic+One & family= Fuggles & family= Martian+Mono:wght@200;700 & family= Poppins:ital, wght@1.500 & family= Roboto:wght@300 & display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box /*faz com que as medidas descritas posteriormente sejam aceitas*/;
+    font-family : 'Martian Mono', monoespaçado;
+}
+/*Estilização da header*/
+header{
+    height : 100px;
+    /*border : solid black;*/
+    font-size : 25px;
+    background-color: #c7a6c9; 
+
+}
+li{
+    display : inline-block;
+    margin : 20px;/*Afastamento dos pequenos blocos*/
+    margin-left : 180px;
+    margin-top : 50px;
+}
+a{
+    color:white;
+}
+/*Estilização da Main*/
+div{
+    display : inline-block;
+    margin-left : 70px;
+    padding:40px;/*posicionamento dentro do espaço determinado*/
+    height : 450px;
+}
+h3,button{
+    margin-right : 50px;
+    font-size : 20px;
+}
+footer{
+    background-color  : #c7a6c9;
+    font-size : 20px;
+    padding-left : 20px;
+    font-family : 'Poppins', sem serifa;
+
+}
+button{
+    font-size : 25px;
+    border-radius: 15%;
+    background-color: rgb(141, 112, 168);
+}
+label{
+    padding-left : 20px;
+    font-size : 25px;
+}
+footer label, input{
+    font-size : 25px;
+}
+
